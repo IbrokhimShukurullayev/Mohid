@@ -1,0 +1,52 @@
+#watch {
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+.watches {
+  display: grid;
+  grid-template-columns: 354px 354px 354px;
+  column-gap: 20px;
+  margin-bottom: 126px;
+}
+
+.watch-1,
+.watch-2,
+.watch-3 {
+  display: flex;
+  column-gap: 26px;
+  max-width: 354px;
+  height: 239px;
+  border-radius: 22px;
+  background: #f6f6f6;
+}
+
+.watch-1 img,
+.watch-2 img,
+.watch-3 img {
+  padding: 46px 0 44px 41px;
+}
+
+.watch-1 h3,
+.watch-2 h3,
+.watch-3 h3 {
+  padding-top: 57px;
+  color: #1e1d1d;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.watch-1 p,
+.watch-2 p,
+.watch-3 p {
+  width: 173px;
+  height: 76px;
+  padding-right: 10px;
+  flex-shrink: 0;
+  color: #8b8e99;
+  font-family: Inter;
+  margin-top: 9px;
+}
